@@ -1,0 +1,55 @@
+h1{
+  font-family: Arial, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom:0;
+}
+p{
+  margin:0;
+  margin-bottom:0;
+  font-size:35px;
+}
+#countdown {
+  font-family: Arial, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#countdown span {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#countdown span:first-child {
+  margin-left: 0;
+}
+
+#countdown span:last-child {
+  margin-right: 0;
+}
+
+#countdown span:before,
+#countdown span:after {
+  content: ":";
+  color: #fff;
+}
+
+#countdown span:last-child:before,
+#countdown span:last-child:after {
+  content: "";
+}
+
+#countdown span:before {
+  margin-right: -5px;
+}
+
+#countdown span:after {
+  margin-left: -5px;
+}

@@ -30,7 +30,10 @@ p{
 #countdown span:first-child {
   margin-left: 0;
 }
-
+footer{
+  text-align:center;
+  margin-top:4rem;
+}
 #countdown span:last-child {
   margin-right: 0;
 }

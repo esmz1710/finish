@@ -1,5 +1,5 @@
 // Establece la fecha objetivo para el conteo regresivo (formato: año, mes - 1, día, hora, minuto, segundo)
-var targetDate = new Date(2025, 03, 30, 0, 0, 0);
+var targetDate = new Date(2025, 04, 01, 0, 0, 0);
 
 function updateCountdown() {
   var currentDate = new Date();
